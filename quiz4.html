@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Stanford: Award-Winning Instructional Designer, Teacher, and Educational Technology Consultant</title>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Stanford: Award-Winning Instructional Designer, Teacher, and Educational Technology Consultant | About Daniel > Quiz</title>
   
   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -51,47 +51,63 @@
 		<div class="large-12 large-centered columns quiz-wrapper">
 			
 			<div class="row">
-				<div class="large-12 columns">
+				<div class="small-12 columns">
 					<div class="box1">
-			      <p>Hi there! I’m Daniel. I love  design, technology, teaching, and serial commas.</p>
+			      <p>Quiz time!</p>
 			    </div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="medium-4 columns small-centered small-8 medium-uncentered hero-holder">
-						<img src="images/pixel-daniel-stanford-blink.gif" class="hero-image" />
+				<div class="small-4 columns hero-holder">
+						<img src="images/pixel-daniel-stanford-blink.gif" />
 				</div>
-				<div class="medium-8 columns top-padded featured-text">
-			    <p>I’ve put together a short lesson to help you learn about my skills and accomplishments. It features:</p>
-    			<ul>
-    				<li>award-winning instructional design</li>
-    				<li>apps and games that make people happier</li>
-    				<li>the tale of a nerdy kid from the Northeast who somehow became nerdier after spending his formative years in the Deep South</li>
+				<div class="small-8 columns top-padded featured-text">
+			    <p class="quiz-question-text">True or false: Daniel has lived in Pennsylvania, Alabama, Georgia, France, Germany, and Illinois.</p>
+			  </div>
+		    <div class="small-12 medium-8 columns">
+    			<ul class="no-bullet quiz-buttons">
+    				<li><a href="#" class="large-12 columns button split-divider" data-reveal-id="correct-modal" data-reveal><span>A</span>True</a></li>
+    				<li><a href="#" class="large-12 columns button split-divider" data-reveal-id="incorrect-modal" data-reveal><span>B</span>False</a></li>
     			</ul>
-    			<p><a href="distance-learning.html" class="button">I'm intrigued! Teach away!</a></p>
-    			<p><a href="no-like-learning.html" class="button">No thanks. I'm in a hurry.</a></p>
 		    </div>
+        
 			</div>
 		</div>
 	</div>
-
-    <!-- Footer -->
-  <footer>
+	
+	<div id="correct-modal" class="reveal-modal" data-reveal>
     <div class="row">
-      <p><a href="mailto:daniel@danielstanford.com"><i class="icon-envelope icon-large button"></i></a>
-        <a href="http://www.linkedin.com/in/dstanford" target="_blank"><i class="icon-linkedin icon-large button"></i></a>
-        <a href="http://www.twitter.com/dstanford" target="_blank"><i class="icon-twitter icon-large button"></i></a>
-        <a href="http://www.instagram.com/danielstanford" target="_blank"><i class="icon-instagram icon-large button" style="border-right: solid 1px #fff;"></i></a>
-      </p>
+      <div class="small-12 columns">
+        <h2>Very impressive.</h2>
+        <p class="lead">But wait! There's more! Ask Daniel about the summer he spent in New York working for a record label and you'll get the tale of his job at a milk-bottling factory absolutely free.</p>
+      </div>
     </div>
-  </footer>
-  
+    <div class="row">
+      <div class="small-12 large-6 columns">
+        <p><a href="wrap-up.html" class="button">Next</a></p>
+      </div>
+    </div>
+  </div>
+  <div id="incorrect-modal" class="reveal-modal" data-reveal>
+     <div class="row">
+       <div class="small-12 columns">
+          <h2>Guess again!</h2>
+          <p class="lead">Daniel has lived in all of those places. He also speaks French, German, and Alabamian.</p>
+        </div>
+      </div>
+      <div class="small-12 large-6 columns">
+        <p><a href="wrap-up.html" class="button">Next</a></p>
+      </div>
+  </div>
+
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/stickyFooter.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.reveal.js"></script>
     <script>
       $(document).foundation();
     </script>
-  
+
+
+
 </body>
 </html>

@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daniel Stanford: Award-Winning Instructional Designer, Teacher, and Educational Technology Consultant</title>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Stanford: Award-Winning Instructional Designer, Teacher, and Educational Technology Consultant | Portfolio > Distance Learning > Quiz</title>
   
   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -49,49 +49,67 @@
 
 	<div class="row">
 		<div class="large-12 large-centered columns quiz-wrapper">
+
+			<!-- Grid Example -->
 			
 			<div class="row">
-				<div class="large-12 columns">
+				<div class="small-12 columns">
 					<div class="box1">
-			      <p>Hi there! I’m Daniel. I love  design, technology, teaching, and serial commas.</p>
+			      <p>Quiz time!</p>
 			    </div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="medium-4 columns small-centered small-8 medium-uncentered hero-holder">
-						<img src="images/pixel-daniel-stanford-blink.gif" class="hero-image" />
+				<div class="small-4 columns hero-holder">
+						<img src="images/pixel-daniel-stanford-blink.gif" />
 				</div>
-				<div class="medium-8 columns top-padded featured-text">
-			    <p>I’ve put together a short lesson to help you learn about my skills and accomplishments. It features:</p>
-    			<ul>
-    				<li>award-winning instructional design</li>
-    				<li>apps and games that make people happier</li>
-    				<li>the tale of a nerdy kid from the Northeast who somehow became nerdier after spending his formative years in the Deep South</li>
+				<div class="small-8 columns top-padded featured-text">
+			    <p class="quiz-question-text">True or false: In his spare time, Daniel designs logos for wealthy fat cats in exchange for briefcases bursting with unmarked bills.</p>
+    		</div>
+		    <div class="small-12 medium-8 columns">
+    			<ul class="no-bullet quiz-buttons">
+    				<li><a href="#" class="large-12 columns button split-divider" data-reveal-id="incorrect-modal" data-reveal><span>A</span>True</a></li>
+    				<li><a href="#" class="large-12 columns button split-divider" data-reveal-id="correct-modal" data-reveal><span>B</span>False</a></li>
     			</ul>
-    			<p><a href="distance-learning.html" class="button">I'm intrigued! Teach away!</a></p>
-    			<p><a href="no-like-learning.html" class="button">No thanks. I'm in a hurry.</a></p>
 		    </div>
+        
 			</div>
 		</div>
 	</div>
-
-    <!-- Footer -->
-  <footer>
+	
+	<div id="correct-modal" class="reveal-modal" data-reveal>
     <div class="row">
-      <p><a href="mailto:daniel@danielstanford.com"><i class="icon-envelope icon-large button"></i></a>
-        <a href="http://www.linkedin.com/in/dstanford" target="_blank"><i class="icon-linkedin icon-large button"></i></a>
-        <a href="http://www.twitter.com/dstanford" target="_blank"><i class="icon-twitter icon-large button"></i></a>
-        <a href="http://www.instagram.com/danielstanford" target="_blank"><i class="icon-instagram icon-large button" style="border-right: solid 1px #fff;"></i></a>
-      </p>
+      <div class="small-12 columns">
+        <h2>Way to go!</h2>
+        <p class="lead">Daniel loves helping nonprofits with their branding efforts and is happy to donate his time for a good cause.</p>
+      </div>
     </div>
-  </footer>
-  
+    <div class="row">
+      <div class="small-12 large-6 columns">
+        <p><a href="wrap-up.html" class="button">Next Page</a></p>
+      </div>
+    </div>
+  </div>
+  <div id="incorrect-modal" class="reveal-modal" data-reveal>
+     <div class="row">
+       <div class="small-12 columns">
+          <h2>Guess again!</h2>
+          <p class="lead">Daniel's only professional interaction with fat cats took place when he worked as an adoption counselor at the Greater Birmingham Humane Society.</p>
+        </div>
+      </div>
+      <div class="small-12 large-6 columns">
+        <p><a href="wrap-up.html" class="button">Next Page</a></p>
+      </div>
+  </div>
+
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/stickyFooter.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.reveal.js"></script>
     <script>
       $(document).foundation();
     </script>
-  
+
+
+
 </body>
 </html>

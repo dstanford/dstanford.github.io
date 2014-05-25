@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body, h1, h2, h3, h4, h5, h6, a, p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.top-bar-section ul li>a {
+  font-family: 'Lato', sans-serif;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: none; 
+}
+.contain-to-grid .top-bar {
+  margin-bottom: 1.875em;
+}
+
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role="separator"] {
+  border-right: solid 1px #fff; 
+}
+
+a {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+p a {
+  text-transform: none;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.row {
+  max-width: 58rem;
+}
+.contain-to-grid, .top-bar {
+  background-color: #2B3E50;
+}
+
+.top-bar-section ul li > a {
+ background-color: #2B3E50;
+ font-weight: 300; 
+}
+.top-bar-section ul li {
+ background-color: #2B3E50; 
+}
+.top-bar-section li a:not(.button) {
+   background-color: #2B3E50; 
+}
+.top-bar .toggle-topbar.menu-icon a span {
+  text-indent: -58px;
+}
+
+.box1 {
+  background-color: #D84E4D;
+  color: #fff;
+  padding: 1em;
+}
+.box1 p {
+  padding: 0em;
+  margin: 0em;
+  line-height: 1.2em;
+  text-align: center;
+}
+.box1 a {
+  text-transform: none;
+  color: #fff;
+  text-decoration: underline;
+}
+.box1-height {
+  min-height: 92px;
+}
+
+.button {
+  background-color: #37AE93;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+.button a:hover {
+  background: #2B3E50;
+}
+
+.hero-image {
+  max-width: none;
+  margin-bottom: 1em;
+}
+
+.featured-text p {
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+ul {
+  margin-left: 2em;
+}
+
+.featured-text .button {
+  margin: 0px;
+}
+
+.quiz-buttons .button {
+  margin-bottom: 1em;
+}
+.quiz-buttons {
+  margin-left: 0em;
+}
+
+.quiz-buttons a {
+  text-align: left;
+  padding-left: 4em;
+}
+
+.quiz-question-text {
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+.quiz .quiz-wrapper {
+  max-width: 800px;
+}
+.portfolio-wrapper {
+  max-width: 800px;
+}
+
+.hero-holder {
+  height: 278px;
+  overflow: hidden;
+}
+@media only screen and (min-width: 641px) {
+  .hero-holder {
+    height: auto;
+    overflow: visible;
+  }
+}
+.orbit-timer {
+  display: none;
+}
+
+.split-divider.button span {
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-right: solid 1px #fff;
+  text-align: center; 
+  width: 3em; 
+  padding: 1.1em; 
+}
+
+button, .button {
+  border: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #2B3E50;
+  color: #fff;
+  font-size: .8em;
+}
+footer .button {
+  background-color: transparent;
+  border-left: 1px solid #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+
+footer span {
+  margin-top: 2em;
+  padding-right: 1em;
+}
+
+footer p {
+  line-height: 4em;
+}
+
+footer a.button {
+  height: 100%;
+}
+footer span {
+  position: relative;
+  top: .6em;
+  padding-right: 1em;
+}
+.image-bottom-padding {
+  padding-bottom: 1em;
+}
+.float-right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.float-left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.rounded {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.clearing-thumbs li, [data-clearing] li {
+  margin-right: 0px;
+}
