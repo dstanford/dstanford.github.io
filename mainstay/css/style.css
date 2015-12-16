@@ -1,0 +1,274 @@
+body {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+body.homepage { /*add custom background only on homepage */
+  background-image: url("../images/facet-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.full-width-container {
+  background-color: white;
+}
+
+/* Nav and links */
+a {
+  color: #00928b;
+}
+.mainstay-mark {
+  padding-top: 6px;
+  width: 41px;
+  height: 39px;
+}
+.navbar-header {
+  padding-top: 9px;
+}
+.navbar {
+  border: none;
+  min-height: 70px;
+}
+.navbar-right {
+  margin-top: 20px;
+  margin-right: 0px;
+}
+.navbar-default {
+  background-color: white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #00928b;
+  margin-left: 50px;
+  padding: 7px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  border-bottom: solid 1px #ccc;
+  color: #666;
+}
+
+
+/* Main marketing message and call-to-action button */
+h1 {
+  font-size: 26px;
+} 
+.homepage .jumbotron {
+  display: table;
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.jumbotron h1 {
+  font-size: 34px;
+  line-height: 150%;
+  margin-top: 0px;
+  font-weight: normal;
+  white-space: pre;
+}
+.jumbotron h1 span {
+  background-color: white; 
+  line-height: 1.8em;
+  padding: .2em;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+/* these next styles keep the hero image and text veritcally centered */
+.hero-image {
+  width:50%; 
+  text-align: right; 
+  display: table-cell;
+}
+.hero-text {
+  color: #333;
+  width:50%; 
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2em;
+}
+
+/* buttons */
+.btn-primary {
+  background-color: #037f70;
+  border-color: #037f70;
+}
+.btn-primary:hover {
+  background-color: #02bca1;
+  border-color: #02bca1;
+}
+
+/* LIGHT BLUE BUTTON SETTINGS */
+.btn-blue {
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(top, #92e5d0 0, #32adac 100%);
+  background-image: -o-linear-gradient(top, #92e5d0 0, #32adac 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#92e5d0), to(#32adac));
+  background-image: linear-gradient(to bottom, #92e5d0 0, #32adac 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff92e5d0', endColorstr='#ff32adac', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #037f70;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+  -webkit-box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.4);
+  box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.3);
+}
+.btn-blue:hover {
+  background-image: -webkit-linear-gradient(top, #32adac 0, #32adac 100%);
+  background-image: -o-linear-gradient(top, #32adac 0, #32adac 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#32adac), to(#32adac));
+  background-image: linear-gradient(to bottom, #32adac 0, #32adac 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff32adac', endColorstr='#ff92e5d0', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #037f70;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, .2);
+}
+
+/* PINK BUTTON SETTINGS */
+.btn-pink {
+  color: white;
+  background-image: -webkit-linear-gradient(top, #ff98d0 0, #e12a6e 100%);
+  background-image: -o-linear-gradient(top, #ff98d0 0, #e12a6e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff98d0), to(#e12a6e));
+  background-image: linear-gradient(to bottom, #ff98d0 0, #e12a6e 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffff98d0', endColorstr='#ffe12a6e', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #9b326c;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, .2);
+}
+.btn-pink:hover {
+  color: white;
+  background-image: -webkit-linear-gradient(top, #e12a6e 0, #ff98d0 100%);
+  background-image: -o-linear-gradient(top, #e12a6e 0, #ff98d0 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e12a6e), to(#ff98d0));
+  background-image: linear-gradient(to bottom, #e12a6e 0, #ff98d0 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffe12a6e', endColorstr='#ffff98d0', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-color: #9b326c;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, .2);
+}
+/* GOLD BUTTON SETTINGS */
+.btn-gld {
+  color: white;
+  background-image: -moz-linear-gradient(top, #f9d026, #d8ae00);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9d026), to(#d8ae00));
+  background-image: -webkit-linear-gradient(top, #f9d026, #d8ae00);
+  background-image: -o-linear-gradient(top, #f9d026, #d8ae00);
+  background-image: linear-gradient(to bottom, #f9d026, #d8ae00);
+  background-repeat: repeat-x;
+  border-color: #e2be24 #e2be24 #9e8000;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9d026', endColorstr='#d8ae00', GradientType=0);
+}
+.btn-gld:hover {
+  color: white;
+  background-color: #f9d026;
+  background-image: -moz-linear-gradient(top, #d8ae00, #f9d026);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9d026), to(#f9d026));
+  background-image: -webkit-linear-gradient(top, #d8ae00, #f9d026);
+  background-image: -o-linear-gradient(top, #d8ae00, #f9d026);
+  background-image: linear-gradient(to bottom, #d8ae00, #f9d026);
+  background-repeat: repeat-x;
+  border-color: #8e7300 #8e7300 #006572;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8ae00', endColorstr='#f9d026', GradientType=0);
+}
+
+/* media queries */
+@media (max-width: 768px) {
+  .container > .navbar-header {
+    margin-left: 0px;
+  }
+  body.homepage { /* fix faceted bg size so it stays big on small screens */
+    background-size: auto;
+  }
+  body.homepage .jumbotron { 
+    text-align: center;
+  }
+  .jumbotron h1 {
+    white-space: normal;
+  }
+  .hero-text {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .hero-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .hero-image img {
+    max-width: 100%; /*this forces the image to shrink a bit on small screens so it stays centered*/
+  }
+  .home-container .row {
+    padding-left: 5px;
+  }
+  .navbar-collapse .navbar-nav>li>a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #e7e7e7;
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+  .navbar-collapse .navbar-right {
+    margin-top: 0px;
+  }
+  .navbar-collapse .navbar-nav {
+    margin-bottom: 0px;
+  }
+  .navbar-collapse .navbar-nav>li>a:hover {
+    border: none;
+    background-color: #037f70;
+    color: white;
+    border-bottom: solid 1px #037f70;
+  }
+}
+
+/* Docs page & subpages */
+.list-group .active { /*sets the bg color for active link in left sidebar */
+  background-color: #037f70;
+  border-color: #037f70;
+}
+.list-group .active:hover {
+  background-color: #02bca1;
+  border-color: #02bca1;
+}
+body.subpage { /*this bg image is a little different from the one on the homepage */
+  background-image:url("../images/facet-bg-wide-repeat.svg");
+  background-size: 100%;
+}
+.subpage .jumbotron {
+  padding: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.solid-bg {
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.subpage footer {
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin-top: 25px;
+}
+footer p {
+  margin-bottom: 0px;
+}
