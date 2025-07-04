@@ -1,0 +1,160 @@
+@ -0,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euthyphro: Interactive Dialogue with Definitions</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c4964;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .dialogue {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .speaker {
+            font-weight: bold;
+            color: #2c4964;
+        }
+        .term {
+            color: #1a73e8;
+            text-decoration: underline;
+            cursor: pointer;
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip {
+            visibility: hidden;
+            width: 300px;
+            background-color: #2c4964;
+            color: white;
+            text-align: left;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.4;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .term:hover .tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .citation {
+            color: #666;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        .page-marker {
+            font-style: italic;
+            color: #888;
+            text-align: center;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Euthyphro: A Dialogue by Plato</h1>
+    
+    <div class="dialogue">
+        <p><span class="speaker">Socrates: </span>And what is <span class="term">piety<span class="tooltip">Piety: Religious devotion and reverence to the gods; performing one's religious duties and obligations correctly.</span></span>, and what is <span class="term">impiety<span class="tooltip">Impiety: Lack of reverence for the gods; failing to fulfill religious duties; actions that offend the gods.</span></span>?</p>
+        
+        <p><span class="speaker">Euthyphro: </span>Piety is doing as I am doing; that is to say, prosecuting anyone who is guilty of murder, <span class="term">sacrilege<span class="tooltip">Sacrilege: The violation or profanation of anything sacred or held sacred; a serious offense against a sacred person, thing, or idea.</span></span>, or of any similar <strong>[e]</strong> crime-whether he be your father or mother, or whoever he may be-that makes no difference; and not to prosecute them is impiety. And please to consider, Socrates, what a notable proof I will give you of the truth of my words, a proof which I have already given to others:-of the <span class="term">principle<span class="tooltip">Principle: A fundamental truth or proposition that serves as the foundation for a system of belief or behavior; a basic assumption from which a chain of reasoning may be traced.</span></span>, I mean, that the impious, whoever he may be, ought not to go unpunished. For do not men regard <span class="term">Zeus<span class="tooltip">Zeus: In Greek mythology, the king of the gods, ruler of Mount Olympus, and god of the sky, thunder and lightning. Son of Cronus (Chronos) and Rhea.</span></span> as the best <strong>[6]</strong> and most <span class="term">righteous<span class="tooltip">Righteous: Morally right or justifiable; virtuous.</span></span> of the gods?-and yet they admit that he bound his father (<span class="term">Chronos<span class="tooltip">Chronos (or Cronus): In Greek mythology, the leader of the Titans who overthrew his father Uranus. He later devoured his own children to prevent them from overthrowing him, but was ultimately defeated by his son Zeus.</span></span>) because he wickedly devoured his sons, and that he too had punished his own father (<span class="term">Uranus<span class="tooltip">Uranus: In Greek mythology, the primordial god of the sky, father of the Titans including Chronos. According to myth, he was castrated by his son Chronos at the urging of Gaia.</span></span>) for a similar reason, in a <span class="term">nameless manner<span class="tooltip">Nameless manner: Referring to the castration of Uranus by Chronos, which was considered too terrible or taboo to name directly in conversation.</span></span>. And yet when I proceed against my father, they are angry with me. So <span class="term">inconsistent<span class="tooltip">Inconsistent: Lacking agreement or harmony; self-contradictory; not in keeping with a principle or position previously adopted.</span></span> are they in their way of talking when the gods are concerned, and when I am concerned.</p>
+        
+        <p><span class="speaker">Socrates: </span>May not this be the reason, Euthyphro, why I am charged with <span class="term">impiety<span class="tooltip">Impiety: In this context, Socrates was charged with impiety for allegedly corrupting the youth and not believing in the city's gods.</span></span>-that I cannot do away with these stories about the gods? And therefore I suppose that people think</p>
+        
+        <div class="page-marker">Page 5</div>
+        
+        <p>me wrong. But, as you who are well informed about them approve of them, I cannot do better than <strong>[b]</strong> <span class="term">assent<span class="tooltip">Assent: To express agreement or acceptance of a statement or proposal.</span></span> to your <span class="term">superior wisdom<span class="tooltip">Superior wisdom: Socrates is using irony here, a common technique in his dialogues. He pretends to defer to Euthyphro's supposedly greater knowledge while subtly questioning it.</span></span>. What else can I say, confessing as I do, that I know nothing about them? Tell me, for the love of Zeus, whether you really believe that they are true.</p>
+        
+        <p><span class="speaker">Euthyphro: </span>Yes, Socrates; and things more wonderful still, of which the world is in <span class="term">ignorance<span class="tooltip">Ignorance: Lack of knowledge or information; the state of being unaware.</span></span>.</p>
+        
+        <p><span class="speaker">Socrates: </span>And do you really believe that the gods, fought with one another, and had <span class="term">dire quarrels<span class="tooltip">Dire quarrels: Terrible or serious disputes; refers to the violent conflicts between gods described in Greek mythology.</span></span>, battles, and the like, as the <span class="term">poets<span class="tooltip">Poets: Referring primarily to Homer and Hesiod, whose works included many tales of the gods and their conflicts.</span></span> say, <strong>[c]</strong> and as you may see represented in the works of great artists? The temples are full of them; and notably the <span class="term">robe of Athena<span class="tooltip">Robe of Athena: The peplos, a ceremonial robe presented to the statue of Athena during the Panathenaic festival, decorated with scenes from mythological battles.</span></span>, which is carried up to the <span class="term">Acropolis<span class="tooltip">Acropolis: The citadel of ancient Athens, built on a high rocky outcrop containing several ancient buildings including the Parthenon, a temple dedicated to Athena.</span></span> at the great <span class="term">Panathenaea<span class="tooltip">Panathenaea: A major religious festival held in Athens in honor of Athena, the patron goddess of the city. It included processions, sacrifices, athletic competitions, and cultural events.</span></span>, is embroidered with them. Are all these tales of the gods true, Euthyphro?</p>
+        
+        <p><span class="speaker">Euthyphro: </span>Yes, Socrates; and, as I was saying, I can tell you, if you would like to hear them, many other things about the gods which would quite amaze you.</p>
+        
+        <p><span class="speaker">Socrates: </span>I dare say; and you shall tell me them at some other time when I have leisure. But just at present I would rather hear from you a <strong>[d]</strong> more <span class="term">precise<span class="tooltip">Precise: Exact, accurate, and clearly defined, without vagueness or ambiguity.</span></span> answer, which you have not as yet given, my friend, to the question, What is "piety"? When asked, you only replied, Doing as you do, charging your father with murder.</p>
+        
+        <p><span class="speaker">Euthyphro: </span>And what I said was true, Socrates.</p>
+        
+        <p><span class="speaker">Socrates:</span> No doubt, Euthyphro; but you would admit that there are many other pious acts?</p>
+        
+        <p><span class="speaker">Euthyphro:</span> There are.</p>
+        
+        <p><span class="speaker">Socrates:</span> Remember that I did not ask you to give me two or three <span class="term">examples<span class="tooltip">Examples: Particular instances that illustrate a general principle. Socrates is looking for the essence or definition of piety, not just examples of pious actions.</span></span> of piety, but to explain the <span class="term">general idea<span class="tooltip">General idea: This reflects Socrates' (and Plato's) concern with finding universal definitions or "forms" – the essential nature that makes all instances of a concept what they are.</span></span> which makes all pious things to be pious. Do you not recollect that there was one idea which made the impious impious, and the pious pious?</p>
+        
+        <p><span class="speaker">Euthyphro:</span> I remember.</p>
+        
+        <p><span class="speaker"><strong>[e]</strong> Socrates:</span> Tell me what the <span class="term">nature<span class="tooltip">Nature: The fundamental qualities or properties that define something; its essence.</span></span> of this idea is, and then I shall have a <span class="term">standard<span class="tooltip">Standard: A basis for comparison; a reference point against which other things can be evaluated.</span></span> to which I may look, and by which I may <span class="term">measure<span class="tooltip">Measure: To evaluate or assess according to a standard. Socrates seeks a definition that can serve as a reliable criterion for judging actions.</span></span> actions, whether yours or those of anyone else, and then I shall be able to say that such and such an action is pious, such another impious.</p>
+        
+        <p><span class="speaker">Euthyphro:</span> I will tell you, if you like.</p>
+        
+        <p><span class="speaker">Socrates:</span> I should very much like.</p>
+    </div>
+    <p class="citation">From Plato's "Euthyphro," translated by Benjamin Jowett</p>
+
+    <script>
+        // Add click functionality to show/hide tooltips for mobile devices
+        document.querySelectorAll('.term').forEach(term => {
+            term.addEventListener('click', function(e) {
+                const tooltip = this.querySelector('.tooltip');
+                const tooltips = document.querySelectorAll('.tooltip');
+                
+                // First hide all tooltips
+                tooltips.forEach(t => {
+                    if (t !== tooltip) {
+                        t.style.visibility = 'hidden';
+                        t.style.opacity = '0';
+                    }
+                });
+                
+                // Then toggle current tooltip
+                if (tooltip.style.visibility === 'visible') {
+                    tooltip.style.visibility = 'hidden';
+                    tooltip.style.opacity = '0';
+                } else {
+                    tooltip.style.visibility = 'visible';
+                    tooltip.style.opacity = '1';
+                }
+                
+                // Prevent this click from propagating to body
+                e.stopPropagation();
+            });
+        });
+        
+        // Hide all tooltips when clicking elsewhere
+        document.body.addEventListener('click', function() {
+            document.querySelectorAll('.tooltip').forEach(tooltip => {
+                tooltip.style.visibility = 'hidden';
+                tooltip.style.opacity = '0';
+            });
+        });
+    </script>
+</body>
+</html>
